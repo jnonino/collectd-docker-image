@@ -1,2 +1,1 @@
-# collectd-docker-image
-CollectD Docker Image
+# CollectD Docker Image
