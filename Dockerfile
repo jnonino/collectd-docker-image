@@ -2,7 +2,7 @@ FROM ubuntu:xenial
 LABEL maintainer="Julian Nonino <noninojulian@outlook.com>"
 
 RUN apt-get update -y && \
-    apt-get install -y build-essential wget tar && \
+    apt-get install -y build-essential wget tar tcpdump && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* 
 
